@@ -1,3 +1,4 @@
+
 from urllib import response
 import mechanize
 import os
@@ -27,25 +28,28 @@ def sp(stri):
 
 logo =  """\033[1;35;40m     
 
-\033[1;35;40m  ______    ______   __    __  __     __   ______  
- \033[1;35;40m/      \  /      \ |  \  |  \|  \   |  \ /      \ 
-\033[1;35;40m|  $$$$$$\|  $$$$$$\| $$\ | $$| $$   | $$|  $$$$$$\
-\033[1;35;40m| $$   \$$| $$  | $$| $$$\| $$| $$   | $$| $$  | $$
-\033[1;35;40m| $$      | $$  | $$| $$$$\ $$ \$$\ /  $$| $$  | $$
-\033[1;35;40m| $$   __ | $$  | $$| $$\$$ $$  \$$\  $$ | $$  | $$
-\033[1;35;40m| $$__/  \| $$__/ $$| $$ \$$$$   \$$ $$  | $$__/ $$
-\033[1;35;40m \$$    $$ \$$    $$| $$  \$$$    \$$$    \$$    $$
-\033[1;35;40m  \$$$$$$   \$$$$$$  \$$   \$$     \$      \$$$$$$ 
-                                                   
+\033[1;35;40m           o           o          o           o           o          o  
+\033[1;35;40m          <|>         <|\        /|>         <|>         <|\        <|> 
+\033[1;35;40m          / \         / \\o    o// \          / \         / \\o       / \ 
+\033[1;35;40m        o/   \o       \o/ v\  /v \o/       o/   \o       \o/ v\     \o/ 
+\033[1;35;40m       <|__ __|>       |   <\/>   |       <|__ __|>       |   <\     |  
+\033[1;35;40m       /       \      / \        / \      /       \      / \    \o  / \ 
+\033[1;35;40m     o/         \o    \o/        \o/    o/         \o    \o/     v\ \o/ 
+\033[1;35;40m    /v           v\    |          |    /v           v\    |       <\ |  
+\033[1;35;40m   />             <\  / \        / \  />             <\  / \        < \ 
+                                                                       
+                                                                      
+                                                                      
                                                    
                                                    
 
 __________________________________________  
 \033[1;34;40m-----------------------------------------------
-\033[1;34;40mM9D3 BY  : 4M49 XD
+\033[1;34;40mM9D3 BY  : Aman Sharma XD 
 \033[1;34;40mFacebook : https://www.facebook.com/tere.baap.ka.id.hai.125809
-\033[1;34;40mIF YOU THINK YOUR ARE BAD THEN I AM YOUR DAD
-\033[1;34;40m-----------------------------------------------"""
+\033[1;34;40m Number +91 96340 78939
+\033[1;34;40 Rulex : Dark Knight
+-----------------------------------------------"""
 
 def menu():
 	os.system('clear')
@@ -68,8 +72,8 @@ def menu():
 def login():
     browser.open(url)
     browser.select_form(nr = 0)
-    browser.form['email'] = AMAN SHARMA
-    browser.form['pass'] = 4M491234
+    browser.form['email'] = USERNAME
+    browser.form['pass'] = PASSWORD
     r = browser.submit()
     f = open("login.html", "wb")
     f.write(r.read())
@@ -162,7 +166,7 @@ lines = f.readlines()
 f.close()
 print("\033[1;33;40m", end = "")
 print("\033[1;34;40m", end = "")
-sp('\33[1m'"\nEnter enemy name:►\n")
+sp('\33[1m'"\nEnter your name :►\n")
 yyy= str(input())
 print("\033[1;34;40m", end = "")
 
@@ -181,7 +185,7 @@ while True:
             if count != 0:
                 sleep(t)
             findtextchat(curl)
-            sendtextaman(yyy+ ' ' +line)
+            sendtextconvo(yyy+ ' ' +line)
             count += 1
             if count % 10 == 0:
                 sleep(1)
